@@ -14,31 +14,60 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
-      <div class="container"><p>i am header</p></div>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <a href="#" class="logo"></a>
+          <div class="social-auth-wrap">
+            <ul class="social-media">
+              <li class="social-media__item">
+                <a
+                  href="https://www.facebook.com/official.ottclub/"
+                  class="social-media__link"
+                >
+                  <svg class="social-media__icon" width="21px" height="21px">
+                    <use href="./img/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media__item">
+                <a href="https://t.me/ottclubnews" class="social-media__link">
+                  <svg class="social-media__icon" width="21px" height="21px">
+                    <use href="./img/sprite.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="auth">
+              <button type="button" class="auth__register">Регистрация</button>
+              <button type="button" class="auth__login">Войти</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <div class="container"><p>i am hero</p></div>
       </section>
-      <section>
+      <section class="advantages">
         <div class="container"><p>i am advantages</p></div>
       </section>
-      <section>
-        <div class="container"><p>i am focrm-conection</p></div>
+      <section class="conection">
+        <div class="container"><p>i am form-conection</p></div>
       </section>
-      <section>
+      <section section="tv-channels">
         <div class="container"><p>i am tv-channels</p></div>
       </section>
 
-      <section>
+      <section class="test-using">
         <div class="container"><p>i am test using</p></div>
       </section>
-      <section>
+      <section class="faq">
         <div class="container"><p>i am faq</p></div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container"><p>i am footer</p></div>
     </footer>
   </body>
