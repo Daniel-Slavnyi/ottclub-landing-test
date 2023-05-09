@@ -71,7 +71,7 @@
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    fill: $accent-color;
+    fill: $primary-color-hover;
   }
 }
 
@@ -103,7 +103,7 @@
   }
 
   &:hover {
-    color: $accent-color;
+    color: $primary-color-hover;
   }
 }
 
@@ -115,6 +115,6 @@
   }
 
   &:hover {
-    background-color: $accent-color;
+    background-color: $primary-color-hover;
   }
 }

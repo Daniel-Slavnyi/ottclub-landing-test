@@ -1,0 +1,76 @@
+// btn
+%primary-btn {
+  display: inline-block;
+  padding: 14px;
+  width: 100%;
+
+  font-weight: $lg-weight;
+  font-size: $font-xs;
+  line-height: $line-heigth-normal;
+
+  color: $secondary-color;
+
+  background: $primary-color;
+  border: none;
+  border-radius: $base-radius;
+
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+
+  @media screen and (min-width: $screen-xs) {
+    padding: 16px 24px;
+    font-size: 17px;
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    width: auto;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    padding: 16px 28px;
+    font-size: $font-sm;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    padding: 18px 32px;
+    font-size: $font-md;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    padding: 24px 40px;
+    font-size: $font-xl;
+  }
+}
+
+// titles
+%hero-title {
+  font-weight: $lg-weight;
+  font-size: $font-lg;
+  line-height: $line-heigth-small;
+
+  text-align: center;
+
+  @media screen and (min-width: $screen-xs) {
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    font-size: 38px;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    font-size: 42px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    font-size: 56px;
+  }
+}

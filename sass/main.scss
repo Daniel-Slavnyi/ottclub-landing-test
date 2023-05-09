@@ -1,7 +1,11 @@
 @import './utils/variables';
 @import './utils/mixin';
+@import './utils/placeholder';
 @import './base/normalize';
 @import './base/reset';
 
 @import './components/container';
 @import './components/header';
+@import './components/hero';
+@import './components/test-btn';
+@import './components/advantages';
