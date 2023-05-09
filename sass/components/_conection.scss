@@ -1,0 +1,160 @@
+.conection {
+  padding: 54px 0 33px;
+
+  @media screen and (min-width: $screen-sm) {
+    padding: 76px 0 50px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    padding: 92px 0 56px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    padding: 122px 0 81px;
+  }
+}
+
+.form-wrap {
+  position: relative;
+  text-align: center;
+
+  padding: 50px 16px 32px 16px;
+  border: 2px solid $form-border;
+  border-radius: $big-radius;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 50%;
+
+    width: 64px;
+    height: 2px;
+
+    transform: translateX(-50%);
+
+    background-color: black;
+  }
+}
+
+.eye-cirkle {
+  position: absolute;
+  top: -33px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 66px;
+  height: 33px;
+  border-radius: 100px 100px 0 0;
+  border-top: 2px solid $form-border;
+  border-left: 2px solid $form-border;
+  border-right: 2px solid $form-border;
+}
+
+.eye-cirkle__img {
+  width: 40px;
+  height: 50px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, 0);
+}
+
+.price__currency {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: calc(16 / 16);
+
+  text-transform: uppercase;
+}
+
+.price__value {
+  font-weight: $lg-weight;
+  font-size: 67px;
+  line-height: calc(67 / 67);
+
+  color: $primary-color;
+}
+
+.price__text {
+  margin-bottom: 24px;
+  font-size: $font-xs;
+
+  opacity: 0.8;
+}
+
+// description
+
+.description {
+  display: flex;
+  flex-direction: column;
+
+  gap: 19px;
+  margin-bottom: 35px;
+
+  text-align: left;
+}
+
+.description__item {
+  display: flex;
+  gap: 16px;
+
+  &::before {
+    content: '';
+    display: block;
+
+    width: 24px;
+    height: 24px;
+
+    background-image: url('../../img/check-mark.svg');
+  }
+}
+
+// conection-form
+.conection-form__label {
+  position: relative;
+  display: block;
+}
+
+.conection-form__input {
+  width: 100%;
+  padding-left: 16px;
+  height: 53px;
+
+  background-color: $secondary-color;
+  border: transparent;
+  border-radius: $base-radius;
+}
+
+.conection-form__placeholder {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+
+  font-size: $font-xs;
+  line-height: calc(23 / 15);
+
+  letter-spacing: 0.15px;
+  color: rgba(60, 60, 67, 0.6);
+
+  opacity: 0.9;
+
+  transform: translateY(-50%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  .conection-form__input:focus + &,
+  .conection-form__input:not(:placeholder-shown) + & {
+    transform: translateY(-250%);
+    color: $primary-color-hover;
+  }
+}
+
+.conection-form__btn {
+  @extend %form-btn;
+
+  margin-top: 16px;
+}

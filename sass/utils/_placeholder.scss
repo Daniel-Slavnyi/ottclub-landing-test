@@ -45,6 +45,28 @@
   }
 }
 
+%form-btn {
+  display: block;
+  padding: 16px 0;
+  width: 100%;
+
+  font-weight: $lg-weight;
+  font-size: $font-xs;
+  line-height: calc(18 / 15);
+
+  color: $secondary-color;
+
+  background-color: $primary-color;
+  border: transparent;
+  border-radius: $base-radius;
+
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+}
+
 // titles
 %hero-title {
   font-weight: $lg-weight;

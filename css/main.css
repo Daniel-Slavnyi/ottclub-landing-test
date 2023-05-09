@@ -45,6 +45,24 @@
   }
 }
 
+.conection-form__btn {
+  display: block;
+  padding: 16px 0;
+  width: 100%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #ffffff;
+  background-color: #ff1f1f;
+  border: transparent;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.conection-form__btn:hover {
+  background-color: #d61c1c;
+}
+
 .hero__title {
   font-weight: 600;
   font-size: 24px;
@@ -825,4 +843,161 @@ address {
     font-size: 20px;
     line-height: 1.5;
   }
+}
+
+.conection {
+  padding: 54px 0 33px;
+}
+@media screen and (min-width: 768px) {
+  .conection {
+    padding: 76px 0 50px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .conection {
+    padding: 92px 0 56px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .conection {
+    padding: 122px 0 81px;
+  }
+}
+
+.form-wrap {
+  position: relative;
+  text-align: center;
+  padding: 50px 16px 32px 16px;
+  border: 2px solid #f82225;
+  border-radius: 8px;
+}
+.form-wrap::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 64px;
+  height: 2px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: black;
+}
+
+.eye-cirkle {
+  position: absolute;
+  top: -33px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 66px;
+  height: 33px;
+  border-radius: 100px 100px 0 0;
+  border-top: 2px solid #f82225;
+  border-left: 2px solid #f82225;
+  border-right: 2px solid #f82225;
+}
+
+.eye-cirkle__img {
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.price__currency {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.price__value {
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 1;
+  color: #ff1f1f;
+}
+
+.price__text {
+  margin-bottom: 24px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 19px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.description__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+.description__item::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../img/check-mark.svg");
+}
+
+.conection-form__label {
+  position: relative;
+  display: block;
+}
+
+.conection-form__input {
+  width: 100%;
+  padding-left: 16px;
+  height: 53px;
+  background-color: #ffffff;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.conection-form__placeholder {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  font-size: 15px;
+  line-height: 1.5333333333;
+  letter-spacing: 0.15px;
+  color: rgba(60, 60, 67, 0.6);
+  opacity: 0.9;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.conection-form__input:not(:-moz-placeholder-shown) + .conection-form__placeholder {
+  transform: translateY(-250%);
+  color: #d61c1c;
+}
+.conection-form__input:not(:-ms-input-placeholder) + .conection-form__placeholder {
+  transform: translateY(-250%);
+  color: #d61c1c;
+}
+.conection-form__input:focus + .conection-form__placeholder, .conection-form__input:not(:placeholder-shown) + .conection-form__placeholder {
+  -webkit-transform: translateY(-250%);
+          transform: translateY(-250%);
+  color: #d61c1c;
+}
+
+.conection-form__btn {
+  margin-top: 16px;
 }/*# sourceMappingURL=main.css.map */
