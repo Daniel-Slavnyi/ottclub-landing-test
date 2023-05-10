@@ -466,7 +466,7 @@ address {
   display: inline-block;
   width: 56px;
   height: 50px;
-  background: url("../../img/logo.svg") no-repeat center center/contain;
+  background: url("../img/logo.svg") no-repeat center center/contain;
 }
 @media screen and (min-width: 768px) {
   .logo {
@@ -597,66 +597,66 @@ address {
 
 .hero {
   padding: 16px 0;
-  background: url("../../img/hero/_xxs-hero@1x.png") no-repeat center 65px;
+  background: url("../img/hero/_xxs-hero@1x.png") no-repeat center 65px;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background: url("../../img/hero/_xxs-hero@2x.png") no-repeat center 65px/320px 171px;
+    background: url("../img/hero/_xxs-hero@2x.png") no-repeat center 65px/320px 171px;
   }
 }
 @media screen and (min-width: 375px) {
   .hero {
     padding: 24px 0;
-    background: url("../../img/hero/_xs-hero@1x.png") no-repeat center 90px;
+    background: url("../img/hero/_xs-hero@1x.png") no-repeat center 90px;
   }
 }
 @media screen and (min-width: 375px) and (min-device-pixel-ratio: 2), screen and (min-width: 375px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 375px) and (min-resolution: 192dpi), screen and (min-width: 375px) and (min-resolution: 2dppx) {
   .hero {
-    background: url("../../img/hero/_xs-hero@2x.png") no-repeat center 90px/347px 207px;
+    background: url("../img/hero/_xs-hero@2x.png") no-repeat center 90px/347px 207px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
     padding: 48px 0 57px;
-    background: url("../../img/hero/_sm-hero@1x.png") no-repeat right 0;
+    background: url("../img/hero/_sm-hero@1x.png") no-repeat right 0;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background: url("../../img/hero/_sm-hero@2x.png") no-repeat right 0/317px 360px;
+    background: url("../img/hero/_sm-hero@2x.png") no-repeat right 0/317px 360px;
   }
 }
 @media screen and (min-width: 990px) {
   .hero {
     padding: 48px 0 75px;
-    background: url("../../img/hero/_md-hero@1x.png") no-repeat right -10px;
+    background: url("../img/hero/_md-hero@1x.png") no-repeat right -10px;
   }
 }
 @media screen and (min-width: 990px) and (min-device-pixel-ratio: 2), screen and (min-width: 990px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 990px) and (min-resolution: 192dpi), screen and (min-width: 990px) and (min-resolution: 2dppx) {
   .hero {
-    background: url("../../img/hero/_md-hero@2x.png") no-repeat right -10px/491px 426px;
+    background: url("../img/hero/_md-hero@2x.png") no-repeat right -10px/491px 426px;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero {
     padding: 56px 0 141px;
-    background: url("../../img/hero/_lg-hero@1x.png") no-repeat right -20px;
+    background: url("../img/hero/_lg-hero@1x.png") no-repeat right -20px;
   }
 }
 @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1440px) and (min-resolution: 192dpi), screen and (min-width: 1440px) and (min-resolution: 2dppx) {
   .hero {
-    background: url("../../img/hero/_lg-hero@2x.png") no-repeat right -20px/746px 492px;
+    background: url("../img/hero/_lg-hero@2x.png") no-repeat right -20px/746px 492px;
   }
 }
 @media screen and (min-width: 1920px) {
   .hero {
     padding: 70px 0 194px;
-    background: url("../../img/hero/_xl-hero@1x.png") no-repeat right -40px;
+    background: url("../img/hero/_xl-hero@1x.png") no-repeat right -40px;
   }
 }
 @media screen and (min-width: 1920px) and (min-device-pixel-ratio: 2), screen and (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1920px) and (min-resolution: 192dpi), screen and (min-width: 1920px) and (min-resolution: 2dppx) {
   .hero {
-    background: url("../../img/hero/_xl-hero@2x.png") no-repeat right -40px/998px 669px;
+    background: url("../img/hero/_xl-hero@2x.png") no-repeat right -40px/998px 669px;
   }
 }
 
@@ -951,7 +951,7 @@ address {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url("../../img/check-mark.svg");
+  background-image: url("../img/check-mark.svg");
 }
 
 .conection-form__label {
