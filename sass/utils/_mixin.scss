@@ -24,5 +24,7 @@
   border: 2px solid $secondary-color;
   border-radius: $base-radius;
 
+  cursor: pointer;
+
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
