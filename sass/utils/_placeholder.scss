@@ -66,6 +66,36 @@
   &:hover {
     background-color: $primary-color-hover;
   }
+
+  @media screen and (min-width: $screen-sm) {
+    display: inline-block;
+    width: auto;
+    height: 53px;
+    padding: 0 32px;
+
+    font-weight: $md-weight;
+    font-size: 17px;
+    white-space: nowrap;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    padding: 0 40px;
+    font-size: $font-sm;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    height: 56px;
+    font-size: $font-md;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    padding: 0 50px;
+    height: 69px;
+    font-size: $font-lg;
+  }
 }
 
 // titles
