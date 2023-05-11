@@ -142,3 +142,142 @@
     width: 715px;
   }
 }
+
+// icon of devices
+.devices {
+  @include useFlex(flex, center, space-around);
+  flex-wrap: wrap;
+
+  margin-top: 34px;
+
+  @media screen and (max-width: 767px) {
+    gap: 29px;
+  }
+
+  @media screen and (min-width: $screen-xs) {
+    margin-top: 32px;
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    margin-top: 44px;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    margin-top: 50px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    margin-top: 80px;
+  }
+}
+
+.devices__icon--lg {
+  width: 134px;
+  height: 24px;
+
+  @media screen and (min-width: $screen-xs) {
+    width: 170px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    width: 160px;
+    height: 22px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    width: 215px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    width: 342px;
+    height: 46px;
+  }
+}
+
+.devices__icon--ios {
+  width: 100px;
+  height: 40px;
+
+  @media screen and (min-width: $screen-xs) {
+    width: 134px;
+    height: 24px;
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    width: 134px;
+    height: 24px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    width: 134px;
+    height: 24px;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    width: 134px;
+    height: 24px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    width: 134px;
+    height: 24px;
+  }
+}
+
+.devices__icon--android {
+  width: 128px;
+  height: 24px;
+
+  @media screen and (min-width: $screen-xs) {
+    width: 151px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    width: 160px;
+    height: 26px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    width: 175px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    width: 215px;
+    height: 34px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    width: 286px;
+    height: 46px;
+  }
+}
+
+.devices__icon--samsung {
+  width: 106px;
+  height: 24px;
+
+  @media screen and (min-width: $screen-xs) {
+    width: 148px;
+    height: 26px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    width: 198px;
+    height: 34px;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    width: 215px;
+    height: 34px;
+  }
+
+  @media screen and (min-width: $screen-xl) {
+    width: 287px;
+    height: 46px;
+  }
+}

@@ -128,33 +128,33 @@
   }
 }
 
-.test-using__title, .tv-channels__title {
+.faq__title, .test-using__title, .tv-channels__title {
   font-weight: 20px;
   font-size: 24px;
   opacity: 0.9;
 }
 @media screen and (min-width: 375px) {
-  .test-using__title, .tv-channels__title {
+  .faq__title, .test-using__title, .tv-channels__title {
     font-size: 28px;
   }
 }
 @media screen and (min-width: 768px) {
-  .test-using__title, .tv-channels__title {
+  .faq__title, .test-using__title, .tv-channels__title {
     font-size: 30px;
   }
 }
 @media screen and (min-width: 990px) {
-  .test-using__title, .tv-channels__title {
+  .faq__title, .test-using__title, .tv-channels__title {
     font-size: 36px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .test-using__title, .tv-channels__title {
+  .faq__title, .test-using__title, .tv-channels__title {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1920px) {
-  .test-using__title, .tv-channels__title {
+  .faq__title, .test-using__title, .tv-channels__title {
     font-size: 52px;
   }
 }
@@ -1821,5 +1821,175 @@ address {
   .test-using__text {
     margin: 30px 0 60px 0;
     width: 715px;
+  }
+}
+
+.devices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 34px;
+}
+@media screen and (max-width: 767px) {
+  .devices {
+    gap: 29px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .devices {
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .devices {
+    margin-top: 44px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 990px) {
+  .devices {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .devices {
+    margin-top: 80px;
+  }
+}
+
+.devices__icon--lg {
+  width: 134px;
+  height: 24px;
+}
+@media screen and (min-width: 375px) {
+  .devices__icon--lg {
+    width: 170px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .devices__icon--lg {
+    width: 160px;
+    height: 22px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .devices__icon--lg {
+    width: 215px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .devices__icon--lg {
+    width: 342px;
+    height: 46px;
+  }
+}
+
+.devices__icon--ios {
+  width: 100px;
+  height: 40px;
+}
+@media screen and (min-width: 375px) {
+  .devices__icon--ios {
+    width: 134px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .devices__icon--ios {
+    width: 134px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .devices__icon--ios {
+    width: 134px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .devices__icon--ios {
+    width: 134px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .devices__icon--ios {
+    width: 134px;
+    height: 24px;
+  }
+}
+
+.devices__icon--android {
+  width: 128px;
+  height: 24px;
+}
+@media screen and (min-width: 375px) {
+  .devices__icon--android {
+    width: 151px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .devices__icon--android {
+    width: 160px;
+    height: 26px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .devices__icon--android {
+    width: 175px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .devices__icon--android {
+    width: 215px;
+    height: 34px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .devices__icon--android {
+    width: 286px;
+    height: 46px;
+  }
+}
+
+.devices__icon--samsung {
+  width: 106px;
+  height: 24px;
+}
+@media screen and (min-width: 375px) {
+  .devices__icon--samsung {
+    width: 148px;
+    height: 26px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .devices__icon--samsung {
+    width: 198px;
+    height: 34px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .devices__icon--samsung {
+    width: 215px;
+    height: 34px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .devices__icon--samsung {
+    width: 287px;
+    height: 46px;
   }
 }/*# sourceMappingURL=main.css.map */
