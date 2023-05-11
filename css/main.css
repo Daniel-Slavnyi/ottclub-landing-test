@@ -2240,6 +2240,8 @@ address {
 }
 
 .footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(transparent)), url("../img/gradient-footer/bg-pic-xxs.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-xxs.png") no-repeat center bottom/cover;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url("../img/gradient-footer/bg-pic-xxs.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-xxs.png") no-repeat center bottom/cover;
   padding: 48px 0 14px;
 }
 @media screen and (min-width: 375px) {
@@ -2250,6 +2252,30 @@ address {
 @media screen and (min-width: 1920px) {
   .footer {
     padding: 90px 0 14px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(transparent)), url("../img/gradient-footer/bg-pic-xs.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-xs.png") no-repeat center bottom/cover;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url("../img/gradient-footer/bg-pic-xs.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-xs.png") no-repeat center bottom/cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(transparent)), url("../img/gradient-footer/bg-pic-sm.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-sm.png") no-repeat center bottom/cover;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url("../img/gradient-footer/bg-pic-sm.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-sm.png") no-repeat center bottom/cover;
+  }
+}
+@media screen and (min-width: 990px) {
+  .footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(transparent)), url("../img/gradient-footer/bg-pic-md.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-md.png") no-repeat center bottom/cover;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url("../img/gradient-footer/bg-pic-md.png") no-repeat center bottom/contain, url("../img/gradient-footer/bg-md.png") no-repeat center bottom/cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(transparent)), url("../img/gradient-footer/bg-pic-lg.png") no-repeat center bottom/cover, url("../img/gradient-footer/bg-lg.png") no-repeat center bottom/cover;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url("../img/gradient-footer/bg-pic-lg.png") no-repeat center bottom/cover, url("../img/gradient-footer/bg-lg.png") no-repeat center bottom/cover;
   }
 }
 
