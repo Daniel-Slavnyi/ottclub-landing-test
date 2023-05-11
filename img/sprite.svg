@@ -64,5 +64,9 @@
 <path fill="#ed174f" style="fill: var(--color23, #ed174f)" d="M116.794 12.045l-3.575 8.459 4.516-2.7 1.693-4.32-2.634-1.439z"></path>
 <path fill="#3c2e46" style="fill: var(--color24, #3c2e46)" d="M123.564 3.942h-3.576l1.694 4.139 1.882-4.139z"></path>
 </symbol>
+
+<symbol id="arrow-down" viewBox="0 0 64 32">
+<path fill="none"   stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="12.8" d="M6.4 6.4l25.6 18.432 25.6-18.432"></path>
+</symbol>
 </defs>
 </svg>
