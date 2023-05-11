@@ -109,6 +109,7 @@
   list-style: none;
   font-size: 16px;
   line-height: $line-heigth-normal;
+  cursor: pointer;
 
   @media screen and (min-width: $screen-sm) {
   }
@@ -144,4 +145,8 @@
 .faq__text {
   font-size: 14px;
   line-height: $line-heigth-big;
+}
+
+.faq__link {
+  color: #38b24b;
 }
